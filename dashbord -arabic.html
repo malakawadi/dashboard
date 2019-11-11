@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <html dir="rtl"></html>
+    <head >
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="" >
+        <link rel="stylesheet" href="css/style-arabic.css">
+        <link rel="Stylesheet" href="css/media.css">  
+        <link rel="stylesheet" href="css/all.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/functions.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+          google.charts.load('current', {'packages':['corechart']});
+          google.charts.setOnLoadCallback(drawVisualization);
+    
+          function drawVisualization() {
+            // Some raw data (not necessarily accurate)
+            var data = google.visualization.arrayToDataTable([
+              ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
+              ['2004/05',  165,      938,         522,             998,           450,      614.6],
+              ['2005/06',  135,      1120,        599,             1268,          288,      682],
+              ['2006/07',  157,      1167,        587,             807,           397,      623],
+              ['2007/08',  139,      1110,        615,             968,           215,      609.4],
+              ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+            ]);
+    
+            var options = {
+              title : 'Monthly Coffee Production by Country',
+                backgroundColor:"#53AC57",
+              vAxis: {title: 'Cups'},
+              hAxis: {title: 'Month'},
+              seriesType: 'bars',
+              series: {5: {type: 'line'}}        };
+    
+            var chart = new google.visualization.ComboChart(document.getElementById('chart_div1'));
+            chart.draw(data, options);
+          }
+        </script>
+               <script type="text/javascript">
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawVisualization);
+          
+                function drawVisualization() {
+                  // Some raw data (not necessarily accurate)
+                  var data = google.visualization.arrayToDataTable([
+                    ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
+                    ['2004/05',  165,      938,         522,             998,           450,      614.6],
+                    ['2005/06',  135,      1120,        599,             1268,          288,      682],
+                    ['2006/07',  157,      1167,        587,             807,           397,      623],
+                    ['2007/08',  139,      1110,        615,             968,           215,      609.4],
+                    ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+                  ]);
+          
+                  var options = {
+                    title : 'Monthly Coffee Production by Country',
+                      backgroundColor:"#E8413D",
+                    vAxis: {title: 'Cups'},
+                    hAxis: {title: 'Month'},
+                    seriesType: 'bars',
+                    series: {5: {type: 'line'}}        };
+          
+                  var chart = new google.visualization.ComboChart(document.getElementById('chart_div2'));
+                  chart.draw(data, options);
+                }
+              </script>
+               <script type="text/javascript">
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawVisualization);
+          
+                function drawVisualization() {
+                  // Some raw data (not necessarily accurate)
+                  var data = google.visualization.arrayToDataTable([
+                    ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
+                    ['2004/05',  165,      938,         522,             998,           450,      614.6],
+                    ['2005/06',  135,      1120,        599,             1268,          288,      682],
+                    ['2006/07',  157,      1167,        587,             807,           397,      623],
+                    ['2007/08',  139,      1110,        615,             968,           215,      609.4],
+                    ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+                  ]);
+          
+                  var options = {
+                    title : 'Monthly Coffee Production by Country',
+                      backgroundColor:"#FD970F",
+                    vAxis: {title: 'Cups'},
+                    hAxis: {title: 'Month'},
+                    seriesType: 'bars',
+                    series: {5: {type: 'line'}}        };
+          
+                  var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+                  chart.draw(data, options);
+                }
+              </script>
+    </head>
+    <body>
+        <!--start links dashborder-->
+        <div class="all">
+        <div class="links">
+            <p class="cre-tim">التيم الإبداعي</p>
+            <ul>
+                <li class="link active"><span class="fas fa-th-large"></span><a href="dashbord.html">لوحة التحكم</a></li>
+                <li class="link"><span class="fas fa-user"></span><a href="profil.html">الملف الشخصي</a></li>
+                <li class="link"><span class="fas fa-clipboard-list"></span><a href="table.html">قائمة الجدول</a></li>
+                <li class="link"><span class="fas fa-newspaper"></span><a href="">الطباعة</a></li>
+                <li class="link"><span class="fas fa-clipboard-list"></span><a href="">الرموز</a></li>
+                <li class="link"><span class="fas fa-map-marker-alt"></span><a href="">الخرائط</a></li>
+                <li class="link"><span class="fas fa-bell"></span><a href="">التنبيهات</a></li>
+                <li class="link"><span class="fas fa-globe"></span><a href="">RTL دعم</a></li>
+                <li class="link"><span class="fas fa-upload"></span><a href="">التطوير الاحترافي</a></li>
+            </ul>
+        </div>
+        <!-- start body-dash-->
+        <div class="body-dash">
+            <div class="heder">
+                <p class="txt-dash">لوحةالتحكم</p>
+                <div class="div-search">
+                    <input class="input-sea" type="text" placeholder="البحث...">
+                <!--<p class="search">Search...</p>-->
+                <span class="fas fa-search icon icon-sea"></span>
+                <span class="fas fa-th-large icon"></span>
+                <span class="fas fa-bell icon"></span>
+                <sup class="sup">5</sup>
+                <span class="fas fa-user icon"></span>
+                 <a href="index.html">English</a>
+               </div>
+            </div>
+            <!--start section tow-->
+               <div class="all-box">
+                   <div class="box1">
+                       <div class="col-box" style="background-color: #FD970F;"> 
+                            <span class="far fa-copy"></span>
+                       </div>
+                       <p class="pp">المساحةالمستخدمة</p>
+                       <p class="pnumberp">49/50 GB</p>
+                       <hr>
+                       <span class="fas fa-exclamation-triangle" style="color:#E8413D; font-size:12px; margin-right: 2%; display: inline-block;"></span><p class="last-box" style="color: #9C27B0;">الحصول على مزيد من المساحة</p>
+                       </div>
+                   <div class="box">
+                        <div class="col-box" style="background-color: #53AC57;"> 
+                            <span class="fas fa-store-alt"></span>
+                            </div>
+                            <p class="pp">إيرادات </p>
+                            <p class="pnumberp">$34,245</p>
+                            <hr>
+                            <span class="far fa-calendar-alt" style="color:#A9AFBB; font-size:12px; margin-right: 2%; display: inline-block;" ></span><p class="last-box">آخر 24 ساعة</p>
+                   </div>
+                   <div class="box" >
+                       <div class="col-box" style="background-color: #E8413D;"> 
+                        <span class="fas fa-exclamation-circle" ></span>
+                    </div>
+                    <p class="pp">قضايا ثابتة</p>
+                    <p class="pnumberp">75</p>
+                    <hr>
+                    <span class="fas fa-tag" style="color:#A9AFBB; font-size:12px; margin-right: 2%; display: inline-block;"></span><p class="last-box">تعقب Gitbub</p></div>
+                   <div class="box" >
+                       <div class="col-box" style="background-color: #0EB6CA;"> 
+                        <span class="fab fa-twitter"></soan>
+                    </div>
+                    <p class="pp">المتابعين</p>
+                    <p class="pnumberp">+245</p>
+                    <hr>
+                    <span class="fas fa-history" style="color:#A9AFBB; font-size:12px; margin-right: 2%; display: inline-block;"></span><p class="last-box">فقط التحديث</p></div>
+               </div>
+            <!--end links dashborder-->
+            <!---start last dashborde-->
+            <div class="all-chart">
+              <div class="chart">
+                  <div class="div-chart"><div id="chart_div1" style="width: 280px; height: 176px; border-radius: 12px;"></div></div>
+                  <p class="h">المبيعات اليومية</p>
+                  <span class="fas fa-long-arrow-alt-up" style="color:#53AC57; font-size:15px; margin-right: 2%;" ></span><p class="plast"><span style="color:#53AC57;">55%</span> زيادة في المبيعات اليوم</p>
+                  <hr class="hr">
+                  <span class="far fa-clock" style="color:#A9AFBB; font-size:12px; margin-right: 2%;"></span><p class="plast">التحديث قبل 4 دقائق</p>
+              </div>
+              <div class="chart">
+                    <div class="div-chart"><div id="chart_div2" style="width: 280px; height: 176px; border-radius: 12px;"></div> </div>
+                    <p class="h">الاشتراك الالكتروني</p>
+                    <p class="plast">آخر أداء للحملة</p>
+                    <hr class="hr">
+                    <span class="far fa-clock" style="color:#A9AFBB; font-size:12px; margin-right: 2%; "></soan><p class="plast">حملة أرسلت قبل 2 يوم</p>
+              </div>
+              <div class="chart">
+                    <div  class="div-chart"><div id="chart_div" style="width: 280px; height: 176px; border-radius: 12px;"></div></div>
+                    <p class="h">إكمال المهام</p>
+                    <p class="plast">آخر أداء للحملة</p>
+                    <hr class="hr">
+                    <span class="far fa-clock" style="color:#A9AFBB; font-size:12px; margin-right: 2%;"></span><p class="plast">حملة أرسلت قبل 2 يوم</p>
+              </div>
+            </div>
+            <!---end last dashborde-->
+        </div>
+        <!-- end body-dash-->
+        
+    </body>
+    </html>
